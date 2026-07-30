@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Carregando base de dados
-base = pd.read_csv('C:\\Users\\Laura\\OneDrive\\Desktop\\br_inep_avaliacao_alfabetizacao_uf.csv\\br_inep_avaliacao_alfabetizacao_uf.csv')
+base = pd.read_csv(aloalo')
 print(base.head())
 
 # Limpeza de dados
