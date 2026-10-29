@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Carregando base de dados
-base = pd.read_csv('base_alfabetizacao_tratada.csv')
+base = pd.read_csv('br_inep_avaliacao_alfabetizacao_uf.csv')
 print(base.head())
 
 # Limpeza de dados
@@ -207,11 +207,7 @@ plt.show()
 
 # Vou salvar em csv para subir para o Power BI
 
-base.to_csv(
-    r'C:\Users\Laura\OneDrive\Desktop\base_alfabetizacao_tratada.csv',
-    index=False,
-    encoding='utf-8-sig'
-)
+base.to_csv('base_alfabetizacao_tratada.csv', index=False, encoding='utf-8-sig')
 
 
 
